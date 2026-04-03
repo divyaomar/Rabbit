@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate, useParams } from 'react-router-dom';
 import { fetchProductDetails } from '../../redux/slices/ProductsSlice';
+
 import axios from 'axios';
 import { updateProduct } from '../../redux/slices/adminProductSlice';
 
