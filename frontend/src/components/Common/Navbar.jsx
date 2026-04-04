@@ -3,7 +3,7 @@ import { Link, Links } from 'react-router-dom'
 import { HiOutlineUser, HiOutlineShoppingBag } from "react-icons/hi"
 import { HiBars3BottomRight } from "react-icons/hi2"
 import SearchBar from './SearchBar'
-import CartDrawer from '../Layout/cartDrawer'
+import CartDrawer from '../Layout/CartDrawer'
 import { IoMdClose } from 'react-icons/io'
 import { useSelector } from 'react-redux'
 
